@@ -20,7 +20,7 @@ class MiniMindConfig(PretrainedConfig):
             num_attention_heads: int = 8,
             num_hidden_layers: int = 8,
             num_key_value_heads: int = 2,
-            vocab_size: int = 6400,
+            vocab_size: int = 64000,
             rms_norm_eps: float = 1e-05,
             rope_theta: int = 1000000.0,
             inference_rope_scaling: bool = False,
